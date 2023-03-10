@@ -13,6 +13,8 @@
         android:label="fl_16_mapas_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyCtM6lXFiuXMoW-RhoahqRDzrZ4FGVjQ-E"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
